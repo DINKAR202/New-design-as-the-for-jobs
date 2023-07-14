@@ -28,7 +28,7 @@ body{
   
   
   .row-1{
-    /* height: 100px; */
+    height: 40px;
     width: 100%;
   }
   
@@ -50,13 +50,13 @@ body{
   .card_content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 10px 14px;
   }
   .image_content{
     position: relative;
     row-gap: 5px;
-    padding: 25px 0;
+    padding: 5px 0;
   }
   .overlay{
     position: absolute;
@@ -83,9 +83,9 @@ body{
   }
   .card_content{
     position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    /* height: 150px; */
+    width: 100%;
+    /* border-radiufs: 50%; */
     background: #FFF;
     padding: 3px;
   }
@@ -104,7 +104,7 @@ body{
   .description{
     font-size: 14px;
     color: #707070;
-    text-align: center;
+    /* text-align: center; */
   }
   .button{
     border: none;
